@@ -1,0 +1,169 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPS79133DBVR:TPS79133DBVR U1
+U 1 1 60ECBB96
+P 5550 3450
+F 0 "U1" H 5550 4020 50  0000 C CNN
+F 1 "TPS79133DBVR" H 5550 3929 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 5550 3450 50  0001 L BNN
+F 3 "" H 5550 3450 50  0001 L BNN
+	1    5550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60ECC43D
+P 4200 3500
+F 0 "C1" H 4315 3546 50  0000 L CNN
+F 1 "0.1uF" H 4315 3455 50  0000 L CNN
+F 2 "" H 4238 3350 50  0001 C CNN
+F 3 "~" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60ECCA14
+P 6250 3950
+F 0 "C2" H 6365 3996 50  0000 L CNN
+F 1 "0.01uF" H 6365 3905 50  0000 L CNN
+F 2 "" H 6288 3800 50  0001 C CNN
+F 3 "~" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60ECD2B3
+P 6650 3650
+F 0 "C3" H 6765 3696 50  0000 L CNN
+F 1 "4.7uF" H 6765 3605 50  0000 L CNN
+F 2 "" H 6688 3500 50  0001 C CNN
+F 3 "~" H 6650 3650 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60ECD89A
+P 7000 3650
+F 0 "C4" H 7115 3696 50  0000 L CNN
+F 1 "4.7uF" H 7115 3605 50  0000 L CNN
+F 2 "" H 7038 3500 50  0001 C CNN
+F 3 "~" H 7000 3650 50  0001 C CNN
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60ED22D6
+P 7550 3450
+F 0 "R1" H 7620 3496 50  0000 L CNN
+F 1 "1K" H 7620 3405 50  0000 L CNN
+F 2 "" V 7480 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60ED357F
+P 7550 3850
+F 0 "D1" V 7589 3732 50  0000 R CNN
+F 1 "LED" V 7498 3732 50  0000 R CNN
+F 2 "" H 7550 3850 50  0001 C CNN
+F 3 "~" H 7550 3850 50  0001 C CNN
+	1    7550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 3250 6650 3250
+Wire Wire Line
+	7000 3250 7000 3500
+Wire Wire Line
+	6650 3250 6650 3500
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 3250 7000 3250
+Wire Wire Line
+	6250 3650 6250 3800
+Wire Wire Line
+	6250 4100 6250 4200
+Wire Wire Line
+	6650 3800 6650 4200
+Wire Wire Line
+	7000 3800 7000 4200
+Wire Wire Line
+	7550 3600 7550 3700
+Wire Wire Line
+	7550 4000 7550 4200
+Wire Wire Line
+	4850 3250 4700 3250
+Wire Wire Line
+	4700 3250 4700 3350
+Wire Wire Line
+	4850 3350 4700 3350
+Connection ~ 4700 3350
+Wire Wire Line
+	4700 3350 4700 4200
+Wire Wire Line
+	4850 3150 4200 3150
+Wire Wire Line
+	4200 3150 4200 3350
+Wire Wire Line
+	4200 3650 4200 4200
+Wire Wire Line
+	7550 3050 7550 3300
+Wire Wire Line
+	7000 3050 7000 3250
+Connection ~ 7000 3250
+Wire Wire Line
+	4200 3050 4200 3150
+Connection ~ 4200 3150
+Text HLabel 7300 2950 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	7000 3050 7300 3050
+Wire Wire Line
+	7300 3050 7300 2950
+Connection ~ 7300 3050
+Wire Wire Line
+	7300 3050 7550 3050
+Text HLabel 4200 3050 1    50   Input ~ 0
++5V
+Text HLabel 5500 4300 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4200 4200 4700 4200
+Wire Wire Line
+	4700 4200 5500 4200
+Connection ~ 4700 4200
+Wire Wire Line
+	6250 4200 6650 4200
+Connection ~ 6250 4200
+Wire Wire Line
+	6650 4200 7000 4200
+Connection ~ 6650 4200
+Wire Wire Line
+	7000 4200 7550 4200
+Connection ~ 7000 4200
+Wire Wire Line
+	5500 4300 5500 4200
+Connection ~ 5500 4200
+Wire Wire Line
+	5500 4200 6250 4200
+$EndSCHEMATC

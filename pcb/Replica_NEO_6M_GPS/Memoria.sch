@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 4
 Title "i2C EEPROM SERIAL"
 Date "2021-07-12"
-Rev ""
+Rev "1.0"
 Comp "Christian Canaan Castro Botek UBA - Argentina"
 Comment1 ""
 Comment2 ""
@@ -19,7 +19,7 @@ U 1 1 60EE7965
 P 5400 3500
 F 0 "U3" H 5400 4370 50  0000 C CNN
 F 1 "24AA32A-I_MS" H 5400 4279 50  0000 C CNN
-F 2 "SOP65P490X110-8N" H 5400 3500 50  0001 L BNN
+F 2 "24AA32A-I_MS:SOP65P490X110-8N" H 5400 3500 50  0001 L BNN
 F 3 "" H 5400 3500 50  0001 L BNN
 	1    5400 3500
 	1    0    0    -1  

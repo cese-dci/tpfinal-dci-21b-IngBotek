@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "Replica uBLOX NEO-6M GPS Module"
 Date "2021-07-12"
-Rev ""
+Rev "1.0"
 Comp "Christian Canaan Castro Botek UBA - Argentina"
 Comment1 ""
 Comment2 ""

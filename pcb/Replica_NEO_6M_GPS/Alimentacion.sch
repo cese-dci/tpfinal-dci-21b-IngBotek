@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 4
 Title "Regulador 3.3V"
 Date "2021-07-12"
-Rev ""
+Rev "1.0"
 Comp "Christian Canaan Castro Botek UBA - Argentina"
 Comment1 ""
 Comment2 ""
@@ -19,7 +19,7 @@ U 1 1 60ECBB96
 P 5550 3450
 F 0 "U1" H 5550 4020 50  0000 C CNN
 F 1 "TPS79133DBVR" H 5550 3929 50  0000 C CNN
-F 2 "SOT95P280X145-5N" H 5550 3450 50  0001 L BNN
+F 2 "TPS79133DBVR:SOT95P280X145-5N" H 5550 3450 50  0001 L BNN
 F 3 "" H 5550 3450 50  0001 L BNN
 	1    5550 3450
 	1    0    0    -1  

@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 4
 Title "Regulador 3.3V"
 Date "2021-07-12"
-Rev ""
+Rev "1.0"
 Comp "Christian Canaan Castro Botek UBA - Argentina"
 Comment1 ""
 Comment2 ""
@@ -50,8 +50,8 @@ $Comp
 L Device:C C3
 U 1 1 60ECD2B3
 P 6650 3650
-F 0 "C3" H 6765 3696 50  0000 L CNN
-F 1 "4.7uF" H 6765 3605 50  0000 L CNN
+F 0 "C3" H 6765 3638 50  0000 L CNN
+F 1 "4.7uF" H 6765 3543 50  0000 L CNN
 F 2 "" H 6688 3500 50  0001 C CNN
 F 3 "~" H 6650 3650 50  0001 C CNN
 	1    6650 3650

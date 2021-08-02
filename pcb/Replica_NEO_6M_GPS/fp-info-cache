@@ -1,4 +1,4 @@
-19213834237120071
+19215462179093073
 24AA32A-I_MS
 SOP65P490X110-8N
 
@@ -2281,6 +2281,13 @@ speaker CUI
 0
 2
 2
+CONUFL001-SMD-T
+LINX_CONUFL001-SMD-T
+
+
+0
+3
+3
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,

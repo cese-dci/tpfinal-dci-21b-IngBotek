@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/Replica_NEO_6M_GPS/Replica_NEO_6M_GPS.sch")
-    (date "dom 15 ago 2021 12:20:54")
+    (date "dom 15 ago 2021 13:26:58")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -133,7 +133,7 @@
       (tstamp 60ED22D6))
     (comp (ref D1)
       (value LED)
-      (footprint LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/Regulador de voltaje lineal de potencia/") (tstamps /60EC53CA/))
@@ -171,7 +171,7 @@
       (tstamp 60EF9EBB))
     (comp (ref D2)
       (value FIX)
-      (footprint LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder)
+      (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names "/Modulo GPS/") (tstamps /60EC55A9/))

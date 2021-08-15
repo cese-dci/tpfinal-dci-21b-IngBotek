@@ -142,4 +142,69 @@ Text Notes 4550 4200 0    50   ~ 10
 RXD1\n
 Text Notes 4550 4300 0    50   ~ 10
 TXD1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61193E6F
+P 8400 2250
+F 0 "H1" H 8500 2296 50  0000 L CNN
+F 1 "MountingHole" H 8500 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8400 2250 50  0001 C CNN
+F 3 "~" H 8400 2250 50  0001 C CNN
+	1    8400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 611942D8
+P 8400 2450
+F 0 "H2" H 8500 2496 50  0000 L CNN
+F 1 "MountingHole" H 8500 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8400 2450 50  0001 C CNN
+F 3 "~" H 8400 2450 50  0001 C CNN
+	1    8400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6119459C
+P 8400 2650
+F 0 "H3" H 8500 2696 50  0000 L CNN
+F 1 "MountingHole" H 8500 2605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8400 2650 50  0001 C CNN
+F 3 "~" H 8400 2650 50  0001 C CNN
+	1    8400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 611948E2
+P 8400 2850
+F 0 "H4" H 8500 2896 50  0000 L CNN
+F 1 "MountingHole" H 8500 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8400 2850 50  0001 C CNN
+F 3 "~" H 8400 2850 50  0001 C CNN
+	1    8400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 611961F1
+P 8400 3050
+F 0 "H5" H 8500 3096 50  0000 L CNN
+F 1 "MountingHole" H 8500 3005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 8400 3050 50  0001 C CNN
+F 3 "~" H 8400 3050 50  0001 C CNN
+	1    8400 3050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8250 2050 9100 2050
+Wire Notes Line
+	9100 3250 8250 3250
+Wire Notes Line
+	8250 3250 8250 2050
+Wire Notes Line
+	9100 2050 9100 3250
+Text Notes 9150 2750 0    50   ~ 0
+Hollos para montaje mecanico\n4x3mm\n1x4mm
 $EndSCHEMATC

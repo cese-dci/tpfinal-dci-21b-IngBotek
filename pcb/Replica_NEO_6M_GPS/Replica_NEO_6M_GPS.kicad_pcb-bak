@@ -1110,8 +1110,8 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   )
 
-  (gr_text "- Se incrementaron las dimensiones del PCB respecto al patron dado que se usan footprints mas grandes\n- NOTAS DE CUADRICULA: Borde del PCB (1mm), Margen del PCB (1mm)\n\n" (at 115.5 127.5) (layer Dwgs.User)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (gr_text "- Se incrementaron las dimensiones del PCB respecto al patron dado que se usan componentes mas grandes\n" (at 156 125.5) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 132.5 121) (end 132.5 87) (layer Margin) (width 0.15) (tstamp 61198CE3))
   (gr_line (start 176.5 121) (end 132.5 121) (layer Margin) (width 0.15))

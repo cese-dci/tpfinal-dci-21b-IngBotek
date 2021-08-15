@@ -858,6 +858,8 @@
   (module 24AA32A-I_MS:SOP65P490X110-8N (layer F.Cu) (tedit 60EC7A5D) (tstamp 6119788C)
     (at 157.5 108 180)
     (path /60EC55E9/60EE7965)
+    (clearance 0.1)
+    (attr smd)
     (fp_text reference U3 (at 0.075 -2.575) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )

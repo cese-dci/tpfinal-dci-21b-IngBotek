@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Replica_NEO_6M_GPS-rescue)(type Legacy)(uri ${KIPRJMOD}/Replica_NEO_6M_GPS-rescue.lib)(options "")(descr ""))
+  (lib (name NEO-6M-GPS)(type Legacy)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/NEO-6M-GPS/NEO-6M-GPS.lib")(options "")(descr ""))
+  (lib (name CONUFL001-SMD-T)(type Legacy)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/CONUFL001-SMD-T/CONUFL001-SMD-T.lib")(options "")(descr ""))
+  (lib (name 24AA32A-I_MS)(type Legacy)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/24AA32A-I_MS/24AA32A-I_MS.lib")(options "")(descr ""))
+  (lib (name TPS79133DBVR)(type Legacy)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/TPS79133DBVR/TPS79133DBVR.lib")(options "")(descr ""))
+  (lib (name MS621FE)(type Legacy)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/MS621FE/MS621FE.lib")(options "")(descr ""))
+)

@@ -1,9 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: Christian Canaan Castro Botek
+* Título corto del trabajo:  Replica ublox NEO-6M GPS module
+* Descripción: Módulo receptor que puede ser utilizado en cualquier aplicación que requiera geolocalización, cuenta con una antena de gran potencia, posee una memoria EEPROM para guardar datos y una batería para respaldar la configuración del módulo. Es compatible con Arduino, PIC, AVR, Raspberry y otros microcontroladores.
 
 
 ## Licencia de este trabajo ##

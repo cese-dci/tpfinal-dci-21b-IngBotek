@@ -1,8 +1,3 @@
 (fp_lib_table
-  (lib (name 24AA32A-I_MS)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/24AA32A-I_MS")(options "")(descr ""))
-  (lib (name TPS79133DBVR)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/TPS79133DBVR")(options "")(descr ""))
-  (lib (name CONUFL001-SMD-T)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/CONUFL001-SMD-T")(options "")(descr ""))
-  (lib (name MS621FE)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/MS621FE")(options "")(descr ""))
-  (lib (name TAJP156M006SNJ)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/libs/TAJP156M006SNJ")(options "")(descr ""))
-  (lib (name foot)(type KiCad)(uri "/home/christian/Documentos/CEIoT/Circuitos Impresos/TpFinal/pcb/foot.pretty")(options "")(descr ""))
+  (lib (name foot)(type KiCad)(uri ${KIPRJMOD}/foot.pretty)(options "")(descr ""))
 )

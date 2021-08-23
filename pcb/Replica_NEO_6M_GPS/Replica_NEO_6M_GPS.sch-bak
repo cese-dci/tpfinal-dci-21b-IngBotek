@@ -16,67 +16,67 @@ $EndDescr
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61193E6F
-P 8300 4650
-F 0 "H1" H 8400 4696 50  0000 L CNN
-F 1 "MountingHole" H 8400 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 8300 4650 50  0001 C CNN
-F 3 "~" H 8300 4650 50  0001 C CNN
-	1    8300 4650
+P 7750 4100
+F 0 "H1" H 7850 4146 50  0000 L CNN
+F 1 "MountingHole" H 7850 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 4100 50  0001 C CNN
+F 3 "~" H 7750 4100 50  0001 C CNN
+	1    7750 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 611942D8
-P 8300 4850
-F 0 "H2" H 8400 4896 50  0000 L CNN
-F 1 "MountingHole" H 8400 4805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 8300 4850 50  0001 C CNN
-F 3 "~" H 8300 4850 50  0001 C CNN
-	1    8300 4850
+P 7750 4300
+F 0 "H2" H 7850 4346 50  0000 L CNN
+F 1 "MountingHole" H 7850 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 4300 50  0001 C CNN
+F 3 "~" H 7750 4300 50  0001 C CNN
+	1    7750 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 6119459C
-P 8300 5050
-F 0 "H3" H 8400 5096 50  0000 L CNN
-F 1 "MountingHole" H 8400 5005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 8300 5050 50  0001 C CNN
-F 3 "~" H 8300 5050 50  0001 C CNN
-	1    8300 5050
+P 7750 4500
+F 0 "H3" H 7850 4546 50  0000 L CNN
+F 1 "MountingHole" H 7850 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 4500 50  0001 C CNN
+F 3 "~" H 7750 4500 50  0001 C CNN
+	1    7750 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 611948E2
-P 8300 5250
-F 0 "H4" H 8400 5296 50  0000 L CNN
-F 1 "MountingHole" H 8400 5205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 8300 5250 50  0001 C CNN
-F 3 "~" H 8300 5250 50  0001 C CNN
-	1    8300 5250
+P 7750 4700
+F 0 "H4" H 7850 4746 50  0000 L CNN
+F 1 "MountingHole" H 7850 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 4700 50  0001 C CNN
+F 3 "~" H 7750 4700 50  0001 C CNN
+	1    7750 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 611961F1
-P 8300 5450
-F 0 "H5" H 8400 5496 50  0000 L CNN
-F 1 "MountingHole" H 8400 5405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 8300 5450 50  0001 C CNN
-F 3 "~" H 8300 5450 50  0001 C CNN
-	1    8300 5450
+P 7750 4900
+F 0 "H5" H 7850 4946 50  0000 L CNN
+F 1 "MountingHole" H 7850 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 7750 4900 50  0001 C CNN
+F 3 "~" H 7750 4900 50  0001 C CNN
+	1    7750 4900
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	8150 4450 9000 4450
+	7600 3900 8450 3900
 Wire Notes Line
-	9000 5650 8150 5650
+	8450 5100 7600 5100
 Wire Notes Line
-	8150 5650 8150 4450
+	7600 5100 7600 3900
 Wire Notes Line
-	9000 4450 9000 5650
-Text Notes 9100 5100 0    50   ~ 0
+	8450 3900 8450 5100
+Text Notes 8550 4550 0    50   ~ 0
 Hollos para montaje mecanico\n4x3mm\n1x4mm
 $Comp
 L Device:C C?
@@ -631,18 +631,18 @@ Text Notes 7600 3300 0    50   ~ 0
 VCC range: 1,7V to 5,5V\nICC range: 0A to 3mA\n32-Byte Page Write Buffer
 Text Notes 950  7000 0    50   ~ 0
 NEO-6M-0-001\n752000358170\n1744\n0300 7
-Text Notes 8200 4300 0    50   ~ 0
+Text Notes 7650 3750 0    50   ~ 0
 T494B475K010: Capacitor de tantalio, 4,7uF, 6,8V
-Text Notes 8200 4200 0    50   ~ 0
+Text Notes 7650 3650 0    50   ~ 0
 NOTA:
 Wire Notes Line
-	8150 4100 8150 4350
+	7600 3550 7600 3800
 Wire Notes Line
-	8150 4350 10550 4350
+	7600 3800 10000 3800
 Wire Notes Line
-	10550 4350 10550 4100
+	10000 3800 10000 3550
 Wire Notes Line
-	10550 4100 8150 4100
+	10000 3550 7600 3550
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60FCF122
@@ -711,7 +711,7 @@ L TAJP156M006SNJ:TAJP156M006SNJ C4
 U 1 1 6121DBCC
 P 6400 2100
 F 0 "C4" V 6404 2203 50  0000 L CNN
-F 1 "TAJP156M006SNJ" V 6495 2203 50  0000 L CNN
+F 1 "4,7uF" V 6495 2203 50  0000 L CNN
 F 2 "foot:CAPC2012X140N" H 6400 2100 50  0001 L BNN
 F 3 "" H 6400 2100 50  0001 L BNN
 	1    6400 2100
@@ -730,4 +730,58 @@ F 3 "" H 5700 5900 50  0001 L BNN
 	1    5700 5900
 	0    -1   -1   0   
 $EndComp
+Text Notes 8550 5700 0    50   ~ 0
+Pads rectangulares para fijacion del modulo
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6126C73C
+P 7750 5350
+F 0 "H6" H 7850 5396 50  0000 L CNN
+F 1 "MountingHole" H 7850 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7750 5350 50  0001 C CNN
+F 3 "~" H 7750 5350 50  0001 C CNN
+	1    7750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 6126CD10
+P 7750 5550
+F 0 "H7" H 7850 5596 50  0000 L CNN
+F 1 "MountingHole" H 7850 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7750 5550 50  0001 C CNN
+F 3 "~" H 7750 5550 50  0001 C CNN
+	1    7750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 6126D3BC
+P 7750 5750
+F 0 "H8" H 7850 5796 50  0000 L CNN
+F 1 "MountingHole" H 7850 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7750 5750 50  0001 C CNN
+F 3 "~" H 7750 5750 50  0001 C CNN
+	1    7750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 6126D990
+P 7750 5950
+F 0 "H9" H 7850 5996 50  0000 L CNN
+F 1 "MountingHole" H 7850 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 7750 5950 50  0001 C CNN
+F 3 "~" H 7750 5950 50  0001 C CNN
+	1    7750 5950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7600 5200 8450 5200
+Wire Notes Line
+	8450 5200 8450 6150
+Wire Notes Line
+	8450 6150 7600 6150
+Wire Notes Line
+	7600 5200 7600 6150
 $EndSCHEMATC
